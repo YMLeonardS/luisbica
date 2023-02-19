@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply scroll-smooth bg-slate-100 font-poppins;
+  }
+  
+  .hamburger-line {
+    @apply w-6 h-0.5 my-1.5 block bg-dark;
+  }
+  
+  .background {
+    @apply bg-gradient-to-b from-[#302d4c] via-[#211e3b] to-[#1b182e];
+  }
+  
