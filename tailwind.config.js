@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "bg-coffee": "url('/P.jpg')",
+        "bg-coffee": "url('/background.png')",
       },
       colors: {
         primary: "#32bcad",

@@ -12,10 +12,13 @@ const IndexPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="absolute h-full w-full -z-10 bg-cover bg-bg-coffee blur-3xl"></div>
-      <Header />
+      <div className="h-screen w-full flex items-center justify-center bg-bg-coffee bg-cover">
+        <div className="h-full w-full bg-white/30">
+          <Header />
 
-      <Hero />
+          {/* <Hero /> */}
+        </div>
+      </div>
     </>
   );
 };

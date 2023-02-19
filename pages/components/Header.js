@@ -24,7 +24,7 @@ export default function Header() {
   }
 
   return (
-    <div className="fixed top-0 z-50 w-full h-14 shadow-md backdrop-blur-lg bg-slate-200/20">
+    <div className="fixed top-0 left-0 z-50 w-full h-14 shadow-md backdrop-blur-lg bg-white/30">
       <div className="container">
         <div
           className="relative flex items-center justify-between p-1.5 px-3"
