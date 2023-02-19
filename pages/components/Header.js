@@ -36,6 +36,8 @@ export default function Header() {
               alt="luisbica-logo"
               width={30}
               height={30}
+              loading="lazy"
+              blurDataURL="data:image/svg+xml;base64,[base64-encoded-placeholder]"
               className="max-w-xs mx-auto"
             />
             <Image
