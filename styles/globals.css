@@ -16,16 +16,3 @@ html {
 .background {
   @apply bg-gradient-to-b from-[#302d4c] via-[#211e3b] to-[#1b182e];
 }
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-color: blue;
-  }
-}
